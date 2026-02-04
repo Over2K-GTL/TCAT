@@ -1,3 +1,15 @@
-site_name: TCAT Documentation
+site_name: TCAT Plugin Documentation
+site_url: https://Over2K-GTL.github.io/TCAT.github.io/
 theme:
   name: material
+  language: en
+  palette:
+    primary: indigo
+    accent: indigo
+
+nav:
+  - Home: index.md
+  - Guide: 
+    - Installation: guide/install.md
+    - Usage: guide/usage.md
+  - API Reference: api/reference.md
